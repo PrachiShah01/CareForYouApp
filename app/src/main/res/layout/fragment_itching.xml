@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/peppermintleavesimage"
+                android:layout_width="match_parent"
+                android:layout_height="214dp"
+                android:background="@drawable/peppermintleavesimage"/>
+            <TextView
+                android:layout_width="320dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center"
+                android:text="Pepperment Leaves"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/peppermint" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How to use it:"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15dp"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/peppermint1" />
+
+            <ImageView
+                android:id="@+id/aloeveraimage"
+                android:layout_width="match_parent"
+                android:layout_height="214dp"
+                android:background="@drawable/aloeveraimage"/>
+
+            <TextView
+                android:id="@+id/cutoncarbs"
+                android:layout_width="320dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center"
+                android:text="Aloe Vera"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/aloevera1" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How to use it:"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15dp"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/aloevera2" />
+
+            <ImageView
+                android:id="@+id/fruitpeelaimage"
+                android:layout_width="match_parent"
+                android:layout_height="214dp"
+                android:background="@drawable/fruitpeelsimage"/>
+            <TextView
+                android:layout_width="320dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center"
+                android:text="Fruit Peels"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/fruitpeels" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How to use it:"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15dp"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rub peel or rind onto the affected are."/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

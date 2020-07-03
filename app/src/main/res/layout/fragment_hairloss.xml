@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical">
+
+          <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="214dp"
+              android:layout_marginTop="10dp"
+              android:background="@drawable/hairmassageimage" />
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/protein"
+              android:textAppearance="?android:attr/textAppearanceLarge"
+              android:gravity="center"
+              android:layout_marginTop="10dp"
+              android:text="Hair Massage"
+              android:textStyle="bold"
+              android:layout_gravity="center"/>
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:layout_marginBottom="10dp"
+              android:text="@string/hairmassage"/>
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="1. Massage any of the hair oils mentioned above onto your hair and scalp by applying light pressure  with your fingerprints."/>
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="2. Do this atleast once a week."/>
+
+          <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="214dp"
+              android:layout_marginTop="10dp"
+              android:background="@drawable/fenugreekimage" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceLarge"
+              android:gravity="center"
+              android:layout_marginTop="10dp"
+              android:text="Fenugreek"
+              android:textStyle="bold"
+              android:layout_gravity="center"/>
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:layout_marginBottom="10dp"
+              android:text="@string/fenugreek"/>
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="1. Soak 1 cup of fenugreek seed in water overnight."/>
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="2. Inthe morinung, grind them to make a paste."/>
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="3.Apply the paste to your hair and cover with a shower cap. After about 40 mins, rinse your hair."/>
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="4.Follow this remedy evey morning for a month."/>
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Aloe vera:"
+              android:textColor="@color/colorPrimaryDark"
+              android:textSize="15dp"
+              android:layout_marginTop="10dp"/>
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="1.Apply aloe vera jel or juice onti the scalp."/>
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="2.leave it on for a few hours and then wash it off with lukewarm water."/>
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="3.Repeat the process three to four times a week."/>
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="You can also consume one tbps of aloevera juice on an empty stomach to enjoy better hair growth."/>
+
+      </LinearLayout>
+  </ScrollView>
+</RelativeLayout>

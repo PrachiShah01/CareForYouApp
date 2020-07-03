@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="214dp"
+               android:layout_marginTop="10dp"
+               android:background="@drawable/almondfacemaskimage"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/protein"
+               android:textAppearance="?android:attr/textAppearanceLarge"
+               android:gravity="center"
+               android:layout_marginTop="10dp"
+               android:text="Almonds face mask for fair and glowing skin:"
+               android:textStyle="bold"
+               android:layout_gravity="center"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               android:layout_marginBottom="10dp"
+               android:text="@string/almond1"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Ingredients:"
+               android:textColor="@color/colorPrimaryDark"
+               android:textSize="15dp"
+               android:layout_marginTop="10dp"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="1. 3-4 Almonds"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="2. Milk to soak the almonds."/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Preparation:"
+               android:textColor="@color/colorPrimaryDark"
+               android:textSize="15dp"
+               android:layout_marginTop="10dp"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               android:layout_marginBottom="10dp"
+               android:text="@string/almond2"/>
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="214dp"
+               android:layout_marginTop="10dp"
+               android:background="@drawable/cwfacemaskimage"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textAppearance="?android:attr/textAppearanceLarge"
+               android:gravity="center"
+               android:layout_marginTop="10dp"
+               android:text="Cucumber and watermelon face mask for fair and glowing skin:"
+               android:textStyle="bold"
+               android:layout_gravity="center"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Ingredients:"
+               android:textColor="@color/colorPrimaryDark"
+               android:textSize="15dp"
+               android:layout_marginTop="10dp"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="1. Cucumber juice 2 tbps"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="2. Watermelon juice 2tbps"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="3. Yogurt 1 tbps"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="4. Milk Powder 1 tbps"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Preparation:"
+               android:textColor="@color/colorPrimaryDark"
+               android:textSize="15dp"
+               android:layout_marginTop="10dp"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               android:layout_marginBottom="10dp"
+               android:text="@string/cwmask"/>
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="214dp"
+               android:layout_marginTop="10dp"
+               android:background="@drawable/milksaffronmaskimage"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textAppearance="?android:attr/textAppearanceLarge"
+               android:gravity="center"
+               android:layout_marginTop="10dp"
+               android:text="Milk cream and saffrons face mask for getting fair and glowing skin"
+               android:textStyle="bold"
+               android:layout_gravity="center"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Ingredients:"
+               android:textColor="@color/colorPrimaryDark"
+               android:textSize="15dp"
+               android:layout_marginTop="10dp"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="1. Milk cream 2 tbps"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="2. Saffron"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Preparation:"
+               android:textColor="@color/colorPrimaryDark"
+               android:textSize="15dp"
+               android:layout_marginTop="10dp"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               android:layout_marginBottom="10dp"
+               android:text="@string/saffron"/>
+
+       </LinearLayout>
+   </ScrollView>
+
+</RelativeLayout>

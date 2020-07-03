@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HealthyBodyActivity">
+
+    <FrameLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bodyfragmentcontainer"
+        android:layout_below="@id/bodytopnavigation"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bodytopnavigation"
+        app:itemBackground="?attr/colorButtonNormal"
+        app:itemIconSize="30dp"
+        app:itemTextColor="@android:color/black"
+        app:menu="@menu/bodytop_nav"/>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/helathybodygif"
+        android:layout_below="@id/bodyfragmentcontainer"
+        android:layout_margin="20px"/>
+</RelativeLayout>

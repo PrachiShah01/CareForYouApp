@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iceimage"
+                android:layout_width="match_parent"
+                android:layout_height="214dp"
+                android:background="@drawable/iceimage" />
+
+            <TextView
+                android:layout_width="320dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center"
+                android:text="Ice"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/icetext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/ice" />
+
+            <ImageView
+                android:id="@+id/lemonimage"
+                android:layout_width="match_parent"
+                android:layout_height="214dp"
+                android:background="@drawable/lemonimage"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="320dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center"
+                android:text="Lemon"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/lemontext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/lemon"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Side effects of applying lemon to the skin"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15dp"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:id="@+id/lemonsideeffecttext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/lemonsideeffect"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Dryness"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Burning"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Stinging"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. Itching"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5. Redness"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6. Killing good bacterias"/>
+
+            <ImageView
+                android:id="@+id/steamimage"
+                android:layout_width="match_parent"
+                android:layout_height="214dp"
+                android:background="@drawable/steamimage"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="320dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center"
+                android:text="Steam"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/steam1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/steam2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/steam3"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/steam4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Different techniques to try:"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15dp"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. To steam over a bowl or sink of hot water"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. To steam with warm towels"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. To steam with a home facial steamer"/>
+
+            <ImageView
+                android:id="@+id/honeylemonimage"
+                android:layout_width="match_parent"
+                android:layout_height="214dp"
+                android:background="@drawable/honeylemonimage"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="320dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center"
+                android:text="Honey Lemon"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/honeyylemon"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical">
+          <ImageView
+              android:layout_width="wrap_content"
+              android:layout_height="214dp"
+              android:layout_marginTop="10dp"
+              android:background="@drawable/sesameoilimage" />
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceLarge"
+              android:gravity="center"
+              android:layout_marginTop="10dp"
+              android:text="Massaging scalp with Sesame oil:"
+              android:textStyle="bold"
+              android:layout_gravity="center"/>
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:layout_marginBottom="10dp"
+              android:text="@string/scalpmassage"/>
+
+          <ImageView
+              android:layout_width="wrap_content"
+              android:layout_height="214dp"
+              android:layout_marginTop="10dp"
+              android:background="@drawable/neemleavesimage" />
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceLarge"
+              android:gravity="center"
+              android:layout_marginTop="10dp"
+              android:text="Neem Leaves"
+              android:textStyle="bold"
+              android:layout_gravity="center"/>
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:layout_marginBottom="10dp"
+              android:text="@string/neemleaves"/>
+          <ImageView
+              android:layout_width="wrap_content"
+              android:layout_height="214dp"
+              android:layout_marginTop="10dp"
+              android:background="@drawable/amlaimage" />
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceLarge"
+              android:gravity="center"
+              android:layout_marginTop="10dp"
+              android:text="Amla"
+              android:textStyle="bold"
+              android:layout_gravity="center"/>
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:layout_marginBottom="10dp"
+              android:text="@string/amla"/>
+
+
+      </LinearLayout>
+  </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="199dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bakingsodaimage" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Baking Soda"
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How to use it:"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15dp"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/bakingsoda1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/bakingsoda2"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="199dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/applevinegarimage" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Apple Cider Vinegar:"
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/applevinegar"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="199dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/aloeveraimage" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Aloe Vera:"
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/hairaloe"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
